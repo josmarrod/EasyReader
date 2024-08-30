@@ -1,0 +1,11 @@
+# Excluir directorios que no deberían influir en la detección de lenguaje
+build/** linguist-vendored
+ios/** linguist-vendored
+android/** linguist-vendored
+
+# Especificar explícitamente los archivos Dart para mejorar la detección
+*.dart linguist-language=Dart
+
+# Ignorar archivos binarios o de configuración que podrían confundirse con C++
+*.cmake linguist-vendored=false
+Makefile linguist-vendored=false
