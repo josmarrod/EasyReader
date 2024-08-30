@@ -1,16 +1,18 @@
-# easyreader
+# EasyReader
 
-A new Flutter project.
+EasyReader is an application developed using Flutter that enables users to manipulate and view PDF and EPUB files efficiently and accessibly. This tool is designed to enhance the reading experience by allowing users to highlight, edit, and manage electronic documents easily.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **PDF Viewing**: Allows users to open and view PDF files within the application.
+- **PDF Editing**: Users can highlight and edit text within PDF documents.
+- **EPUB Support**: Supports loading and viewing EPUB files.
+- **User-Friendly Interface**: Designed to be intuitive and easy to use on both mobile and desktop devices.
 
-A few resources to get you started if this is your first Flutter project:
+## Technologies Used
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Flutter**: Used for developing the user interface and application logic.
+- **Dart**: The primary programming language for Flutter.
+- **Kotlin**: Used to handle specific Android platform functions.
+- **Syncfusion Flutter PDF**: Library used for advanced PDF manipulation.
+- **PDFView**: Widget for displaying PDFs within the application.
